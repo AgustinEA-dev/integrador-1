@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&display=swap');
+
+:root {
+    /* Bg colors */
+    --background: white;
+    --nav-bg: #1e1e1e;
+    --card1-bg: #E2B27A;
+    --card2-bg: #96BE4F;
+    --card3-bg: #45618B;
+    --card4-bg: #B03216;
+    --form-bg: #D9D9D9;
+
+    /* Text colors */
+
+    --text-orange: #FD772B;
+    --text-white: white;
+}
+
+/* HEADER */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    position: fixed;
+    background-color: var(--nav-bg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+
+nav p {
+    color: white;
+    font-size: 26px;
+    padding-left: 20px;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-white);
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.active {
+    color: var(--text-orange);
+}
+
+.log_in {
+    padding-right: 20px;
+}
+
+/* HERO */
+
+.hero {
+    background-image: url(./img/yo.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    height: 500px;
+    color: var(--text-orange);
+    padding: 50px;
+}
+
+.hero_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 100%;
+    font-family: 'Gentium Book Plus', serif;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+}
+
+/* ABOUT */
+
+.about {
+    text-align: center;
+    max-width: 1200px;
+    width: 600px;
+    color: var(--text-orange);
+}
+
+.about h2 {
+    font-size: 24px;
+    padding: 50px 0 20px 0;
+    text-align: center;
+}
+
+.about p {
+    font-size: 20px;
+    padding: 0px 0 50px 0;
+}
+
+.about_text {
+    font-size: 20px;
+    width: 700px;
+    align-self: center;
+}
+
+/* CARDS */
+
+.img-1 {
+    width: 277px;
+    height: 468px;
+}
+
+.img-2 {
+    width: 787px;
+    height: 468px;
+}
+
+.img-3 {
+    width: 380px;
+    height: 496px;
+}
+
+.img-4 {
+    width: 574px;
+    width: 574px;
+}
+
+.cards h2 {
+    text-align: center;
+    padding: 50px;
+    font-size: 24px;
+}
+
+.cards {
+    max-width: 1200px;
+    width: 100%;
+    border: 2px solid red;
+    max-width: 1200px;
+    color: var(--text-orange);
+}
+
+.cards-items {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
