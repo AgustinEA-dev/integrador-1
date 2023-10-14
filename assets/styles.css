@@ -108,7 +108,7 @@ h1 {
 .about {
     text-align: center;
     max-width: 1200px;
-    width: 600px;
+    width: 700px;
     color: var(--text-orange);
 }
 
@@ -125,30 +125,74 @@ h1 {
 
 .about_text {
     font-size: 20px;
-    width: 700px;
+    width: 900px;
     align-self: center;
 }
 
 /* CARDS */
 
 .img-1 {
+    margin: 15px 0;
     width: 277px;
     height: 468px;
+    border-radius: 10px;
 }
 
 .img-2 {
+    margin: 15px 0;
     width: 787px;
     height: 468px;
+    border-radius: 10px;
 }
 
 .img-3 {
+    margin: 15px 0;
     width: 380px;
     height: 496px;
+    border-radius: 10px;
 }
 
 .img-4 {
+    margin: 15px 0;
     width: 574px;
-    width: 574px;
+    height: 574px;
+    border-radius: 10px;
+}
+
+.img-1_container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--card1-bg);
+    border-radius: 20px;
+    width: 309px;
+    height: 547px;
+}
+
+.img-2_container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--card2-bg);
+    border-radius: 20px;
+    width: 821px;
+    height: 547px;
+}
+
+.img-3_container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--card3-bg);
+    border-radius: 20px;
+    width: 418px;
+    height: 580px;
+}
+
+.img-4_container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--card4-bg);
+    border-radius: 20px;
+    width: 618px;
+    height: 665px;
 }
 
 .cards h2 {
@@ -160,8 +204,7 @@ h1 {
 .cards {
     max-width: 1200px;
     width: 100%;
-    border: 2px solid red;
-    max-width: 1200px;
+    height: 1500px;
     color: var(--text-orange);
 }
 
@@ -170,5 +213,5 @@ h1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
 }
