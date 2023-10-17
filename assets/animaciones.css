@@ -1,6 +1,6 @@
 @keyframes fade-in {
 
-    from{
+    from {
         opacity: 0;
     }
 
@@ -10,7 +10,23 @@
 
 }
 
+@keyframes slide-left {
+
+    from {
+        transform: translateX(-200px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
 .hero_text {
     animation-name: fade-in;
     animation-duration: 4s;
+}
+
+.logo {
+    animation-name: slide-left;
+    animation-duration: 0.4s;
 }
