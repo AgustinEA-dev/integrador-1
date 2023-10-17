@@ -30,3 +30,8 @@
     animation-name: slide-left;
     animation-duration: 0.4s;
 }
+
+.hero {
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
