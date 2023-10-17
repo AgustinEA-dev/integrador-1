@@ -1,16 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,700;1,400&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&display=swap');
-
 :root {
     /* Bg colors */
     --background: white;
     --nav-bg: #1e1e1e;
+    --body-bg: #f5f5e4;
     --card1-bg: #E2B27A;
     --card2-bg: #96BE4F;
     --card3-bg: #45618B;
@@ -21,6 +22,10 @@
 
     --text-orange: #FD772B;
     --text-white: white;
+}
+
+body {
+    background-color: var(--body-bg)
 }
 
 /* HEADER */
@@ -74,6 +79,7 @@ a {
 /* HERO */
 
 .hero {
+    margin-top: 60px;
     background-image: url(./img/yo.jpg);
     background-position: bottom;
     background-size: cover;
@@ -81,10 +87,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
     width: 100%;
     height: 500px;
-    color: var(--text-orange);
     padding: 50px;
 }
 
@@ -94,39 +98,66 @@ a {
     align-items: center;
     width: 900px;
     height: 100%;
-    font-family: 'Gentium Book Plus', serif;
-
 }
 
 h1 {
     text-align: center;
-    font-size: 28px;
+    font-size: 45px;
+    color: var(--text-orange);
+    font-family: 'Gentium Book Plus', serif;
 }
 
 /* ABOUT */
 
+.about img {
+    width: 250px;
+    border-radius: 0 0 0 20px;
+}
+
 .about {
     text-align: center;
     max-width: 1200px;
-    width: 700px;
+    width: 800px;
     color: var(--text-orange);
 }
 
+.about_content {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.about_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 70%;
+    height: 333.33px;
+  
+    padding: 50px;
+    border-radius: 0 20px 20px 0;
+}
+
+.about_image {
+    display: flex;
+    align-items: center;
+}
+
 .about h2 {
-    font-size: 24px;
-    padding: 50px 0 20px 0;
+    font-size: 26px;
+    font-family: 'Gentium Book Plus', serif;
+    padding: 50px 0 0 0;
     text-align: center;
 }
 
 .about p {
     font-size: 20px;
-    padding: 0px 0 50px 0;
 }
 
 .about_text {
     font-size: 20px;
-    width: 900px;
-    align-self: center;
+
 }
 
 /* CARDS */
@@ -161,25 +192,45 @@ h1 {
 
 .img-1_container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    background-color: var(--card1-bg);
+    align-items: center;
+    background-color: var(--body-bg);
     border-radius: 20px;
     width: 309px;
     height: 547px;
+    transition: all 0.5s;
+}
+
+.img-1_container:hover{
+    background-color: var(--card1-bg);
+    translate: 0 -5px;
+    box-shadow: 0 0 10px grey;
 }
 
 .img-2_container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    background-color: var(--card2-bg);
+    align-items: center;
+    background-color: var(--body-bg);
     border-radius: 20px;
     width: 821px;
     height: 547px;
+    transition: all 0.5s;
+}
+
+.img-2_container:hover{
+    background-color: var(--card2-bg);
+    translate: 0 -5px;
+    box-shadow: 0 0 10px grey;
 }
 
 .img-3_container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: var(--card3-bg);
     border-radius: 20px;
     width: 418px;
@@ -188,7 +239,9 @@ h1 {
 
 .img-4_container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: var(--card4-bg);
     border-radius: 20px;
     width: 618px;
@@ -197,7 +250,7 @@ h1 {
 
 .cards h2 {
     text-align: center;
-    padding: 50px;
+    padding: 50px 0;
     font-size: 24px;
 }
 
@@ -205,7 +258,7 @@ h1 {
     max-width: 1200px;
     width: 100%;
     height: 1500px;
-    color: var(--text-orange);
+    color: var(--body-bg);
 }
 
 .cards-items {
@@ -214,4 +267,47 @@ h1 {
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+}
+
+.cards h2 {
+    color: var(--text-orange);
+}
+
+/* Contact */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    width: 600px;
+}
+
+.contact_me {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+
+}
+
+.contact_me h3 {
+    text-align: center;
+}
+
+.contact_items{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.comissions {
+    background-color: var(--text-orange);
+    width: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
 }

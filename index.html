@@ -47,10 +47,17 @@
 
             <section class="about">
                 <h2>Sobre mi</h2>
-                <p>Mi nombre es Agustín Álvarez y firmo mis trabajos como “Collins”.
-                    Soy un artista Argentino, actualmente viviendo en Argentina
-                    más precisamente en Santa Fe.
-                </p>
+                <div class="about_content">
+                    <div class="about_image">
+                        <img src="./assets/img/yo.jpg" alt="">
+                    </div>
+                    <div class="about_text">
+                        <p>Mi nombre es Agustín Álvarez y firmo mis trabajos como “Collins”.
+                            Soy un artista argentino, estudié dibujo e ilustración en la escuela de Juan Carlos
+                            Buhajeruk y tambien de manera autodidacta.
+                        </p>
+                    </div>
+                </div>
             </section>
 
             <!-- CARDS -->
@@ -60,41 +67,58 @@
                 <div class="cards-items">
                     <div class="img-1_container">
                         <img class="img-1" src="./assets/img/ROMANTICO (20230819044202).png" alt="imagen-1">
+                        <h3>Skull and roses</h3>
                     </div>
                     <div class="img-2_container">
                         <img class="img-2" src="./assets/img/caña (20230803042626).png" alt="">
+                        <h3>Caña con ruda</h3>
                     </div>
                     <div class="img-3_container">
                         <img class="img-3" src="./assets/img/abducción (20230819115843).png" alt="">
+                        <h3>Abducción</h3>
                     </div>
                     <div class="img-4_container">
                         <img class="img-4" src="./assets/img/gato (20230829055455).png" alt="">
+                        <h3>Gato</h3>
                     </div>
                 </div>
             </section>
 
             <!-- Contact -->
 
-            <section>
-                <div>
-                    <div>
-                        <h3>Contact me</h3>
-                        <div>
+            <section class="contact">
+                <div class="contact_me">
+                    <h3>Contact me</h3>
+                    <div class="contact_items">
+                        <div class="items__mail">
                             <i class="fa-regular fa-envelope" style="color: #f28345;"></i>
                             <span>ag_antro@hotmail.com</span>
+                        </div>
+                        <div class="items__dir">
                             <i class="fa-solid fa-location-dot" style="color: #f28345;"></i>
                             <span>Ituzaingó 4552 - Santa Fé, Capital</span>
+                        </div>
+                        <div class="items__phone">
                             <i class="fa-solid fa-square-phone" style="color: #f28345;"></i>
                             <span>+54 342-539-4333</span>
                         </div>
-                        <h3>Socail media</h3>
+                    </div>
+                    <h3>Socail media</h3>
+                    <div>
                         <i class="fa-brands fa-instagram" style="color: #f28345;"></i>
                         <i class="fa-brands fa-square-behance" style="color: #f28345;"></i>
                     </div>
-                    <div>
-                        <h3>Comissions</h3>
-                        <form action=""></form>
-                    </div>
+                </div>
+                <div class="comissions">
+                    <h3>Comissions</h3> 
+                        <form>
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="e-mail">
+                            <input type="number" placeholder="Phone number">
+                            <h4>Breve explicación de tu idea</h4>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                        </form>                      
                 </div>
             </section>
 
