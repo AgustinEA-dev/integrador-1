@@ -22,6 +22,7 @@
 
     --text-orange: #FD772B;
     --text-white: white;
+    --text-grey: #AAAAAA;
 }
 
 body {
@@ -46,9 +47,8 @@ nav {
     height: 60px;
 }
 
-nav p {
-    color: white;
-    font-size: 26px;
+nav img {
+    width: 120px;
     padding-left: 20px;
 }
 
@@ -80,8 +80,8 @@ a {
 
 .hero {
     margin-top: 60px;
-    background-image: url(./img/yo.jpg);
-    background-position: bottom;
+    background-image: url(./img/fondoHero\ \(20231017112203\).png);
+    background-position: 1% 99%;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -111,7 +111,7 @@ h1 {
 
 .about img {
     width: 250px;
-    border-radius: 0 0 0 20px;
+    border-radius: 8px;
 }
 
 .about {
@@ -131,10 +131,8 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
     width: 70%;
     height: 333.33px;
-  
     padding: 50px;
     border-radius: 0 20px 20px 0;
 }
@@ -202,9 +200,9 @@ h1 {
     transition: all 0.5s;
 }
 
-.img-1_container:hover{
+.img-1_container:hover {
     background-color: var(--card1-bg);
-    translate: 0 -5px;
+    transform: translate(0, -5px);
     box-shadow: 0 0 10px grey;
 }
 
@@ -213,16 +211,15 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--body-bg);
     border-radius: 20px;
     width: 821px;
     height: 547px;
     transition: all 0.5s;
 }
 
-.img-2_container:hover{
+.img-2_container:hover {
     background-color: var(--card2-bg);
-    translate: 0 -5px;
+    transform: translate(0, -5px);
     box-shadow: 0 0 10px grey;
 }
 
@@ -231,10 +228,17 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--card3-bg);
+    background-color: var(--body-bg);
     border-radius: 20px;
     width: 418px;
     height: 580px;
+    transition: all 0.5s;
+}
+
+.img-3_container:hover {
+    background-color: var(--card3-bg);
+    transform: translate(0, -5px);
+    box-shadow: 0 0 10px grey;
 }
 
 .img-4_container {
@@ -242,10 +246,17 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--card4-bg);
+    background-color: var(--body-bg);
     border-radius: 20px;
     width: 618px;
     height: 665px;
+    transition: all 0.5s;
+}
+
+.img-4_container:hover {
+    background-color: var(--card4-bg);
+    transform: translate(0, -5px);
+    box-shadow: 0 0 10px grey;
 }
 
 .cards h2 {
@@ -273,41 +284,94 @@ h1 {
     color: var(--text-orange);
 }
 
-/* Contact */
+/* CONTACT */
+/* contact me */
 
 .contact {
     display: flex;
     justify-content: center;
     max-width: 1200px;
     width: 600px;
+    font-family: 'Gentium Book Plus', serif;
 }
 
 .contact_me {
     background-color: white;
     display: flex;
     flex-direction: column;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
     width: 50%;
     gap: 20px;
-
+    color: var(--text-orange);
 }
 
 .contact_me h3 {
     text-align: center;
 }
 
-.contact_items{
+.contact_items {
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 20px;
 }
 
+.social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* commisions */
+.contact {
+    padding: 50px;
+}
+
 .comissions {
     background-color: var(--text-orange);
     width: 50%;
+    border-radius: 0 10px 10px 0;
+    padding: 20px;
+    color: white;
+
 }
 
 form {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+}
+
+form input {
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+}
+
+textarea {
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--nav-bg);
+    width: 100%;
+    height: 150px;
+    margin-top: 50px;
+}
+
+.footer_content {
+    height: 150px;
+}
+
+footer img {
+    height: 145px;
+    margin-left: 1100px;
 }

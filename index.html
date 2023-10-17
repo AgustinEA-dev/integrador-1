@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>integrador 1</title>
     <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="./assets/animaciones.css">
 </head>
 
 <body>
@@ -14,7 +15,7 @@
 
     <header>
         <nav>
-            <p>Collins ~ Artista</p>
+            <img class="logo" src="./assets/img/logoCollins (20231017105041).png" alt="">
             <div>
                 <ul>
                     <li><a href="#" class="active">Hero</a></li>
@@ -85,7 +86,7 @@
             </section>
 
             <!-- Contact -->
-
+            <h2>Contact</h2>
             <section class="contact">
                 <div class="contact_me">
                     <h3>Contact me</h3>
@@ -103,26 +104,36 @@
                             <span>+54 342-539-4333</span>
                         </div>
                     </div>
-                    <h3>Socail media</h3>
-                    <div>
+                    <h3>Social media</h3>
+                    <div class="social-media">
                         <i class="fa-brands fa-instagram" style="color: #f28345;"></i>
                         <i class="fa-brands fa-square-behance" style="color: #f28345;"></i>
                     </div>
                 </div>
                 <div class="comissions">
-                    <h3>Comissions</h3> 
-                        <form>
-                            <input type="text" placeholder="Name">
-                            <input type="email" placeholder="e-mail">
-                            <input type="number" placeholder="Phone number">
-                            <h4>Breve explicación de tu idea</h4>
-                            <textarea name="" id="" cols="30" rows="10"></textarea>
-
-                        </form>                      
+                    <h3>Comissions</h3>
+                    <form>
+                        <label for="name" name="name"></label>
+                        <input type="text" placeholder="Name" id="name">
+                        <label for="email" name="email"></label>
+                        <input type="email" placeholder="e-mail" id="email">
+                        <label for="phoneNumber" name="phoneNumber"></label>
+                        <input type="number" placeholder="Phone number" id="phoneNumber">
+                        <h4>Breve explicación de tu idea</h4>
+                        <textarea name="idea" id="idea" cols="30" rows="10"></textarea>
+                    </form>
                 </div>
             </section>
 
         </main>
+
+        <!-- FOOTER -->
+
+        <footer>
+            <div class="footer_content">
+                <img src="./assets/img/logoCollins (20231017105041).png" alt="">
+            </div>
+        </footer>
     </header>
     <script src="https://kit.fontawesome.com/f2800b72b3.js" crossorigin="anonymous"></script>
 </body>
