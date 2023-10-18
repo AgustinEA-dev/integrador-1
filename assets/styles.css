@@ -283,6 +283,7 @@ h1 {
     width: 1200px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 20px;
 }

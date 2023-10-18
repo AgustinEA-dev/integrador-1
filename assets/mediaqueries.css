@@ -20,11 +20,9 @@
 
     /* cards */
 
-    /* .cards-items {
-        flex-direction: column;
-        gap: 10px;
-        align-items: center;
-    } */
+    .cards-items {
+       width: 1000px;
+    }
 
     .img-1 {
         width: 220.79px;
@@ -37,13 +35,13 @@
     }
 
     .img-2 {
-        width: 627px;
-        height: 373px;
+        width: 472px;
+        height: 281px;
     }
 
     .img-2_container {
-        width: 654px;
-        height: 436px;
+        width: 493px;
+        height: 328px;
     }
 
     .img-3 {
