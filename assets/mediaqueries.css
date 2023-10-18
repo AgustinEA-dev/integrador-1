@@ -1,0 +1,69 @@
+/* TABLET */
+
+@media (max-width: 992px) {
+
+/* hero */
+
+.hero{
+    width: 100%;
+}
+
+    .hero_text h1 {
+        font-size: 40px;
+    }
+
+    /* about */
+
+    .about {
+        width: 100%;
+    }
+
+    /* cards */
+
+    /* .cards-items {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    } */
+
+    .img-1 {
+        width: 220.79px;
+        height: 373.03px;
+    }
+
+    .img-1_container {
+        width: 246.3px;
+        height: 436px;
+    }
+
+    .img-2 {
+        width: 627px;
+        height: 373px;
+    }
+
+    .img-2_container {
+        width: 654px;
+        height: 436px;
+    }
+
+    .img-3 {
+        width: 292px;
+        height: 381px;
+    }
+
+    .img-3_container {
+        width: 322px;
+        height: 455px;
+    }
+
+    .img-4 {
+        width: 437px;
+        height: 437px;
+    }
+
+    .img-4_container {
+        width: 473px;
+        height: 499px;
+    }
+
+}
