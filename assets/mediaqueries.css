@@ -112,6 +112,7 @@
 
     .img-1_container {
         width: 270px;
+        background-color: var(--card1-bg);
     }
 
     .img-2 {
@@ -120,6 +121,25 @@
 
     .img-2_container {
         width: 420px;
+        background-color: var(--card2-bg);
+    }
+
+    .img-3 {
+        width: 250px;
+    }
+
+    .img-3_container {
+        width: 270px;
+        background-color: var(--card3-bg);
+    }
+
+    .img-4 {
+        width: 300px;
+    }
+
+    .img-4_container {
+        width: 320px;
+        background-color: var(--card4-bg);
     }
 }
 
@@ -156,5 +176,15 @@
     .img-4_container {
         width: 320px;
     }
+
+    .cards {
+        padding: 20px;
+    }
+
+    .cards-items h3 {
+        font-size: 10px
+    }
+
+
 
 }
