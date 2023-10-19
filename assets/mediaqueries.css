@@ -1,67 +1,11 @@
 /* TABLET */
 
 @media (max-width: 992px) {
-
-/* hero */
-
-.hero{
-    width: 100%;
+.cards-items {
+    flex-direction: column;
 }
 
-    .hero_text h1 {
-        font-size: 40px;
-    }
-
-    /* about */
-
-    .about {
-        width: 100%;
-    }
-
-    /* cards */
-
-    .cards-items {
-       width: 1000px;
-    }
-
-    .img-1 {
-        width: 220.79px;
-        height: 373.03px;
-    }
-
-    .img-1_container {
-        width: 246.3px;
-        height: 436px;
-    }
-
-    .img-2 {
-        width: 472px;
-        height: 281px;
-    }
-
-    .img-2_container {
-        width: 493px;
-        height: 328px;
-    }
-
-    .img-3 {
-        width: 292px;
-        height: 381px;
-    }
-
-    .img-3_container {
-        width: 322px;
-        height: 455px;
-    }
-
-    .img-4 {
-        width: 437px;
-        height: 437px;
-    }
-
-    .img-4_container {
-        width: 473px;
-        height: 499px;
-    }
+.
 
 }
+

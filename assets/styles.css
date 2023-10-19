@@ -5,6 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* border: 1px solid red; */
 }
 
 :root {
@@ -23,6 +24,14 @@
     --text-orange: #FD772B;
     --text-white: white;
     --text-grey: #AAAAAA;
+
+    /* Fonts sizes */
+
+    --fontSize-h1: 40px;
+    --fontSize-h2: 28px;
+    /* --fontSize-h3: */
+    --fontSize-mainText: 20px;
+
 }
 
 body {
@@ -35,6 +44,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 nav {
@@ -79,214 +89,189 @@ a {
 /* HERO */
 
 .hero {
-    margin-top: 60px;
-    background-image: url(./img/fondoHero\ \(20231017112203\).png);
-    background-position: 1% 99%;
-    background-size: cover;
-    background-repeat: no-repeat;
+
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 500px;
-    padding: 50px;
-}
-
-.hero_text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 900px;
-    height: 100%;
+    height: 400px;
+    margin-top: 60px;
+    background-image: url(./img/fondoHero\ \(20231017112203\).png);
+    background-position: 5% 95%;
 }
 
 h1 {
-    text-align: center;
-    font-size: 45px;
     color: var(--text-orange);
+    width: 800px;
     font-family: 'Gentium Book Plus', serif;
+    font-size: var(--fontSize-h1);
+    text-align: center;
 }
 
 /* ABOUT */
 
 .about img {
-    width: 250px;
-    border-radius: 8px;
+    width: 200px;
 }
 
 .about {
-    max-width: 1200px;
-    width: 800px;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
 }
 
 .about_content {
     display: flex;
-    align-items: center;
-    padding: 50px;
-}
-
-.about_text {
-    display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
-    height: 333.33px;
-    padding: 50px;
-    border-radius: 0 20px 20px 0;
 }
 
 .about_image {
+    width: 50%;
+    height: 300px;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 .about h2 {
-    font-size: 30px;
-    text-transform: uppercase;
     color: var(--text-orange);
     text-align: center;
     font-family: 'Gentium Book Plus', serif;
-    padding: 50px 0 0 0;
-
+    font-size: var(--fontSize-h2);
+    text-transform: uppercase;
 }
 
-.about p {
-    font-size: 20px;
-}
-
-.about_text p {
-    font-size: 20px;
-    font-weight: lighter;
+.about_text {
+    width: 50%;
     color: var(--text-orange);
     font-family: 'Gentium Book Plus', serif;
-    
+    font-size: var(--fontSize-mainText);
 }
 
 /* CARDS */
-
-.img-1 {
-    margin: 15px 0;
-    width: 277px;
-    height: 468px;
-    border-radius: 10px;
-}
-
-.img-2 {
-    margin: 15px 0;
-    width: 787px;
-    height: 468px;
-    border-radius: 10px;
-}
-
-.img-3 {
-    margin: 15px 0;
-    width: 380px;
-    height: 496px;
-    border-radius: 10px;
-}
-
-.img-4 {
-    margin: 15px 0;
-    width: 574px;
-    height: 574px;
-    border-radius: 10px;
-}
-
-.img-1_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--body-bg);
-    border-radius: 20px;
-    width: 309px;
-    height: 547px;
-    transition: all 0.5s;
-}
-
-.img-1_container:hover {
-    background-color: var(--card1-bg);
-    transform: translate(0, -5px);
-    box-shadow: 0 0 10px grey;
-}
-
-.img-2_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    width: 821px;
-    height: 547px;
-    transition: all 0.5s;
-}
-
-.img-2_container:hover {
-    background-color: var(--card2-bg);
-    transform: translate(0, -5px);
-    box-shadow: 0 0 10px grey;
-}
-
-.img-3_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--body-bg);
-    border-radius: 20px;
-    width: 418px;
-    height: 580px;
-    transition: all 0.5s;
-}
-
-.img-3_container:hover {
-    background-color: var(--card3-bg);
-    transform: translate(0, -5px);
-    box-shadow: 0 0 10px grey;
-}
-
-.img-4_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--body-bg);
-    border-radius: 20px;
-    width: 618px;
-    height: 665px;
-    transition: all 0.5s;
-}
-
-.img-4_container:hover {
-    background-color: var(--card4-bg);
-    transform: translate(0, -5px);
-    box-shadow: 0 0 10px grey;
-}
-
-.cards h2 {
-    font-size: 30px;
-    color: var(--text-orange);
-    text-transform: uppercase;
-    font-family: 'Gentium Book Plus', serif;
-    text-align: center;
-    padding: 50px 0;
-}
-
 .cards {
-    max-width: 1200px;
     width: 100%;
-    height: 1500px;
-    color: var(--body-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 0 0 0;
 }
 
 .cards-items {
-    width: 1200px;
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+    padding: 30px;
+    color: var(--body-bg);
 }
+
+.cards h2 {
+    color: var(--text-orange);
+    text-align: center;
+    font-size: var(--fontSize-h2);
+    text-transform: uppercase;
+}
+
+.img-1 {
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 9px;
+}
+
+.img-1_container {
+    background-color: var(--body-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    border-radius: 10px;
+    transition: all 0.5s
+}
+
+.img-1_container:hover {
+    background-color: var(--card1-bg);
+    translate: -5px -5px;
+    box-shadow: 5px 5px 10px rgb(149, 149, 149);
+}
+
+.img-2 {
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 9px;
+}
+
+.img-2_container {
+   background-color: var(--body-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 520px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.img-2_container:hover {
+    background-color: var(--card2-bg);
+    translate: -5px -5px;
+    box-shadow: 5px 5px 10px rgb(149, 149, 149);
+}
+
+.img-3 {
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 9px;
+}
+
+.img-3_container {
+   background-color: var(--body-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.img-3_container:hover {
+    background-color: var(--card3-bg);
+    translate: -5px -5px;
+    box-shadow: 5px 5px 10px rgb(149, 149, 149);
+}
+
+.img-4 {
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 9px;
+}
+
+.img-4_container {
+    background-color: var(--body-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.img-4_container:hover {
+    background-color: var(--card4-bg);
+    translate: -5px -5px;
+    box-shadow: 5px 5px 10px rgb(149, 149, 149);
+}
+
+.cards-items h3 {
+    padding: 5px;
+}
+
 
 /* CONTACT */
 /* contact me */
@@ -371,11 +356,6 @@ footer {
     margin-top: 50px;
 }
 
-.footer_content {
-    height: 150px;
-}
-
 footer img {
     height: 145px;
-    margin-left: 1100px;
 }
