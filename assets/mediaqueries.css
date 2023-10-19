@@ -44,7 +44,6 @@
 @media (max-width: 862px) {
 
     .logo {
-        margin-left: 8px;
         width: 110px;
     }
 
@@ -66,12 +65,11 @@
 
     .navbar i {
         display: block;
-        padding-right: 10px;
+        margin-right: 10px;
     }
 
     nav label {
-        order: 2;
-        margin-right: 10px;
+        order: 2; 
     }
 
     #toggle-menu:checked~.navbar-list {
