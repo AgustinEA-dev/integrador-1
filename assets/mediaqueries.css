@@ -162,19 +162,19 @@
     }
 
     .img-2 {
-        width: 300px;
+        width: 260px;
     }
 
     .img-2_container {
-        width: 320px;
+        width: 280px;
     }
 
     .img-4 {
-        width: 300px;
+        width: 260px;
     }
 
     .img-4_container {
-        width: 320px;
+        width: 280px;
     }
 
     .cards {
@@ -184,7 +184,5 @@
     .cards-items h3 {
         font-size: 10px
     }
-
-
 
 }
