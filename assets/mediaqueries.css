@@ -124,6 +124,11 @@
 }
 
 @media (max-width: 487px) {
+
+    .hero h1 {
+        padding: 20px;
+    }
+
     .about {
         padding: 0;
     }
