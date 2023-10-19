@@ -1,11 +1,79 @@
+:root {
+    /* Bg colors */
+    --background: white;
+    --nav-bg: #1e1e1e;
+    --body-bg: #f5f5e4;
+    --card1-bg: #E2B27A;
+    --card2-bg: #96BE4F;
+    --card3-bg: #45618B;
+    --card4-bg: #B03216;
+    --form-bg: #D9D9D9;
+
+    /* Text colors */
+
+    --text-orange: #FD772B;
+    --text-white: white;
+    --text-grey: #AAAAAA;
+
+    /* Fonts sizes */
+
+    --fontSize-h1: 40px;
+    --fontSize-h2: 28px;
+    /* --fontSize-h3: */
+    --fontSize-mainText: 20px;
+    --fontSize-mQuerie1: 30px
+}
+
 /* TABLET */
 
 @media (max-width: 992px) {
-.cards-items {
-    flex-direction: column;
+
+    .hero h1 {
+        font-size: var(--fontSize-mQuerie1);
+        width: 600px;
+    }
+
+    .cards-items {
+        flex-direction: column;
+
+    }
+
 }
 
-.
-
+@media (max-width: 862px) {
+.logo   {
+    margin-left: 8px;
+    width: 110px;
 }
 
+    .navbar ul {
+        background-color: var(--nav-bg);
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+
+    .ulNavigation li {
+        padding: 10px;
+    }
+
+    .navbar i {
+        display: block;
+        padding-right: 10px;
+    }
+
+    nav label {
+        order: 2;
+        margin-right: 10px;
+    }
+
+    #toggle-menu:checked~.navbar-list {
+        display: flex;
+        padding: 10px;
+    }
+}

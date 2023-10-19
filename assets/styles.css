@@ -31,7 +31,7 @@
     --fontSize-h2: 28px;
     /* --fontSize-h3: */
     --fontSize-mainText: 20px;
-
+    --fontSize-mQuerie1: 30px
 }
 
 body {
@@ -47,7 +47,7 @@ main {
     width: 100%;
 }
 
-nav {
+.navbar {
     position: fixed;
     background-color: var(--nav-bg);
     display: flex;
@@ -57,9 +57,14 @@ nav {
     height: 60px;
 }
 
-nav img {
-    width: 120px;
-    padding-left: 20px;
+.navbar-list {
+    margin-right: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 60px;
+    margin-left: 10px;
 }
 
 ul {
@@ -82,14 +87,22 @@ a {
     color: var(--text-orange);
 }
 
-.log_in {
-    padding-right: 20px;
+/* Menu hamburguesa */
+
+.navbar i {
+    font-size: 30px;
+    display: none;
 }
+
+#toggle-menu {
+    display: none;
+}
+
+
 
 /* HERO */
 
 .hero {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,7 +219,7 @@ h1 {
 }
 
 .img-2_container {
-   background-color: var(--body-bg);
+    background-color: var(--body-bg);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -229,7 +242,7 @@ h1 {
 }
 
 .img-3_container {
-   background-color: var(--body-bg);
+    background-color: var(--body-bg);
     display: flex;
     flex-direction: column;
     justify-content: center;
