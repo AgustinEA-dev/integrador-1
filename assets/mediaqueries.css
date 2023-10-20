@@ -42,6 +42,26 @@
 
 }
 
+@media (max-width: 981px) {
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .contact_me {
+        width: 70%;
+        border-radius: 10px;
+    }
+
+    .comissions {
+        width: 70%;
+        border-radius: 10px;
+    }
+
+}
+
 @media (max-width: 862px) {
 
     .logo {
@@ -76,6 +96,12 @@
     #toggle-menu:checked~.navbar-list {
         display: flex;
         padding: 10px;
+    }
+}
+
+@media (max-width: 885px) {
+    .contact_items {
+        align-items: center;
     }
 }
 

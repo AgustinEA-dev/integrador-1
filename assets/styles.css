@@ -5,7 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 :root {
@@ -29,8 +29,7 @@
 
     --fontSize-h1: 40px;
     --fontSize-h2: 28px;
-    /* --fontSize-h3: */
-    --fontSize-mainText: 20px;
+    --fontSize-h3: 24px --fontSize-mainText: 20px;
     --fontSize-mQuerie1: 30px
 }
 
@@ -124,7 +123,9 @@ h1 {
 
 .about img {
     width: 250px;
-    padding: 10px;
+    border-radius: 10px;
+  
+   
 }
 
 .about {
@@ -143,10 +144,12 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .about_image {
-    width: 50%;
+    background-image: url(./img/background.jpg);
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -302,24 +305,30 @@ h1 {
     display: flex;
     justify-content: center;
     max-width: 1200px;
-    width: 600px;
+    width: 50%;
     font-family: 'Gentium Book Plus', serif;
+}
+
+.contact h3, h4 {
+    text-align: center;
+    text-decoration: underline;
 }
 
 .contact_me {
     background-color: white;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px 0 0 10px;
+    border: 2px solid ;
     width: 50%;
     gap: 20px;
     color: var(--text-orange);
 }
-
+/* 
 .contact_me h3 {
     text-align: center;
-}
+} */
 
 .contact_items {
     display: flex;
@@ -334,7 +343,26 @@ h1 {
     gap: 10px;
 }
 
+.items__mail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.items__dir {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.items__phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 /* commisions */
+
 .contact {
     padding: 50px;
 }
@@ -343,7 +371,8 @@ h1 {
     background-color: var(--text-orange);
     width: 50%;
     border-radius: 0 10px 10px 0;
-    padding: 20px;
+    border: 2px solid var(--card4-bg);
+    padding: 15px;
     color: white;
 
 }
@@ -362,6 +391,7 @@ form input {
 }
 
 textarea {
+    height: 50px;
     border: none;
     border-radius: 5px;
     outline: none;
