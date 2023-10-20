@@ -5,7 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 :root {
@@ -123,16 +123,23 @@ h1 {
 /* ABOUT */
 
 .about img {
-    width: 200px;
+    width: 250px;
+    padding: 10px;
 }
 
 .about {
+    max-width: 1200px;
+    width: 100%;
     padding: 70px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
 .about_content {
+    max-width: 1200px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,10 +147,10 @@ h1 {
 
 .about_image {
     width: 50%;
-    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .about h2 {
@@ -163,15 +170,18 @@ h1 {
 
 /* CARDS */
 .cards {
+    max-width: 1200px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 70px 0 0 0;
 }
 
 .cards-items {
-
+    max-width: 1200px;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;

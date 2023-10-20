@@ -36,7 +36,8 @@
 
     .cards-items {
         flex-direction: column;
-
+        align-items: center;
+        justify-content: center;
     }
 
 }
@@ -69,7 +70,7 @@
     }
 
     nav label {
-        order: 2; 
+        order: 2;
     }
 
     #toggle-menu:checked~.navbar-list {
@@ -101,7 +102,7 @@
     }
 
     .about_image {
-        width: 200px;
+        width: 250px;
     }
 
     .img-1 {
@@ -149,6 +150,10 @@
 
     .about {
         padding: 0;
+    }
+
+    .about_image {
+        width: 250px;
     }
 
     .img-1 {
