@@ -21,6 +21,28 @@
     }
 }
 
+@keyframes slide-right {
+
+    from {
+        transform: translateX(500px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-bottom {
+
+    from {
+        transform: translateY(500px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
 .hero h1{
     animation-name: fade-in;
     animation-duration: 4s;
@@ -31,7 +53,17 @@
     animation-duration: 0.4s;
 }
 
-/* .hero {
+h2 {
+    animation-name: slide-right;
+    animation-duration: 0.4s;
+}
+
+.about img {
+    animation-name: slide-bottom;
+    animation-duration: 0.7s;
+}
+
+.about p {
     animation-name: fade-in;
-    animation-duration: 1s;
-} */
+    animation-duration: 5s;
+}
