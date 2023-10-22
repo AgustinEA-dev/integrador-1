@@ -21,7 +21,7 @@
     }
 }
 
-.hero_text {
+.hero h1{
     animation-name: fade-in;
     animation-duration: 4s;
 }
@@ -31,7 +31,7 @@
     animation-duration: 0.4s;
 }
 
-.hero {
+/* .hero {
     animation-name: fade-in;
     animation-duration: 1s;
-}
+} */
