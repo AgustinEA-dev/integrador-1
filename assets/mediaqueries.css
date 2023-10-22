@@ -36,28 +36,9 @@
 
     .cards-items {
         flex-direction: column;
+        flex-wrap: nowrap;
         align-items: center;
         justify-content: center;
-    }
-
-}
-
-@media (max-width: 981px) {
-
-    .contact {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .contact_me {
-        width: 70%;
-        border-radius: 10px;
-    }
-
-    .comissions {
-        width: 70%;
-        border-radius: 10px;
     }
 
 }
@@ -96,12 +77,6 @@
     #toggle-menu:checked~.navbar-list {
         display: flex;
         padding: 10px;
-    }
-}
-
-@media (max-width: 885px) {
-    .contact_items {
-        align-items: center;
     }
 }
 
@@ -166,6 +141,10 @@
         width: 320px;
         background-color: var(--card4-bg);
     }
+
+    .footer_content img {
+        height: 100px;
+    }
 }
 
 @media (max-width: 487px) {
@@ -204,6 +183,34 @@
 
     .img-4_container {
         width: 280px;
+    }
+
+    .cards {
+        padding: 20px;
+    }
+
+    .cards-items h3 {
+        font-size: 10px
+    }
+
+}
+
+@media (max-width: 410px) {
+
+    .img-2 {
+        width: 245px;
+    }
+
+    .img-2_container {
+        width: 265px;
+    }
+
+    .img-4 {
+        width: 245px;
+    }
+
+    .img-4_container {
+        width: 265px;
     }
 
     .cards {
