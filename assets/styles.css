@@ -48,6 +48,7 @@ main {
 
 .navbar {
     position: fixed;
+    z-index: 1;
     background-color: var(--nav-bg);
     display: flex;
     justify-content: space-between;
@@ -350,6 +351,7 @@ h4 {
 
 .items__mail {
     display: flex;
+    align-items: center;
     gap: 10px;
 }
 
@@ -373,8 +375,11 @@ form {
     gap: 10px;
     color: var(--text-orange);
     padding: 10px;
-    border: 2px solid var(--text-orange);
-    border-radius: 10px;
+}
+
+form h4 {
+    font-size: 15px;
+    text-decoration: none;
 }
 
 form input {
