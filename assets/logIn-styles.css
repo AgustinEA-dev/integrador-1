@@ -144,7 +144,6 @@ a {
 @media (max-width: 608px) {
     .container {
         flex-direction: column;
-        background-color: transparent;
     }
     
     .img_container img {
@@ -158,6 +157,10 @@ a {
     .btn {
         font-size: 17px;
         margin-top: 10px;
+    }
+    
+    a{
+        margin-bottom:5px;
     }
 
 }
