@@ -124,6 +124,7 @@ h1 {
     font-family: 'Gentium Book Plus', serif;
     font-size: 50px;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 /* ABOUT */
@@ -329,7 +330,7 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    padding: 20px;
+    padding: 45px;
 }
 
 h3 {
@@ -419,3 +420,4 @@ footer {
 footer img {
     height: 145px;
 }
+
