@@ -28,7 +28,7 @@
     /* Fonts sizes */
 
     --fontSize-h1: 50px;
-    --fontSize-h2: 28px;
+    --fontSize-h2: 25px;
     --fontSize-h3: 24px --fontSize-mainText: 20px;
     --fontSize-mQuerie1: 40px
 }
@@ -168,6 +168,8 @@ h1 {
     text-align: center;
     font-family: 'Lora', serif;
     font-size: 25px;
+    border-left: 4px solid;
+    padding-left: 10px;
     /* text-transform: uppercase; */
 }
 
@@ -206,8 +208,10 @@ h1 {
     color: var(--text-orange);
     text-align: center;
     font-size: var(--fontSize-h2);
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: 'Lora', serif;
+    border-right: 4px solid;
+    padding-right: 10px;
 }
 
 .img-1 {
@@ -330,7 +334,7 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    padding: 45px;
+    padding: 80px 45px 45px 45px;
 }
 
 h3 {

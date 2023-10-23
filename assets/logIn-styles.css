@@ -77,7 +77,7 @@ form {
 }
 
 form input {
-    width: 80%;
+    width: 40%;
     outline: none;
     padding: 10px;
     background-color: var(--nav-bg);
@@ -127,7 +127,31 @@ a {
 
 @media (max-width: 907px) {
     .img_container img {
-        width: 300px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 865px) {
+   form input {
+    width: 45%;
+   }
+}
+
+@media (max-width: 711px) {
+    .img_container img {
+        width: 325px;
+    }
+}
+
+@media (max-width: 677px) {
+    .img_container img {
+        width: 310px;
+    }
+}
+
+@media (max-width: 626px) {
+    .img_container img {
+        width: 295px;
     }
 }
 
@@ -151,6 +175,10 @@ a {
 
     a {
         margin-bottom: 5px;
+    }
+
+    form input {
+        width: 80%;
     }
 
 }
