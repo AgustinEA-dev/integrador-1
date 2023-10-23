@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,700;1,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -37,6 +37,10 @@ body {
     background-color: var(--body-bg)
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* HEADER */
 
 main {
@@ -45,6 +49,7 @@ main {
     align-items: center;
     width: 100%;
 }
+
 
 .navbar {
     position: fixed;
@@ -160,16 +165,17 @@ h1 {
 .about h2 {
     color: var(--text-orange);
     text-align: center;
-    font-family: 'Gentium Book Plus', serif;
-    font-size: var(--fontSize-h2);
+    font-family: 'Lora', serif;
+    font-size: 25px;
     /* text-transform: uppercase; */
 }
 
 .about_text {
     width: 50%;
     color: var(--text-orange);
-    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Lora', serif;
     font-size: var(--fontSize-mainText);
+    font-weight: 300;
 }
 
 /* CARDS */
@@ -200,6 +206,7 @@ h1 {
     text-align: center;
     font-size: var(--fontSize-h2);
     text-transform: uppercase;
+    font-family: 'Lora', serif;
 }
 
 .img-1 {
