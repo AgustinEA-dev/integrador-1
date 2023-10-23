@@ -27,7 +27,7 @@
 
     /* Fonts sizes */
 
-    --fontSize-h1: 40px;
+    --fontSize-h1: 50px;
     --fontSize-h2: 28px;
     --fontSize-h3: 24px --fontSize-mainText: 20px;
     --fontSize-mQuerie1: 30px
@@ -122,7 +122,7 @@ h1 {
     text-transform: uppercase;
     width: 800px;
     font-family: 'Gentium Book Plus', serif;
-    font-size: var(--fontSize-h1);
+    font-size: 50px;
     text-align: center;
 }
 
