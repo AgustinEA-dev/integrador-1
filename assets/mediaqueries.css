@@ -21,7 +21,7 @@
     --fontSize-h2: 28px;
     /* --fontSize-h3: */
     --fontSize-mainText: 20px;
-    --fontSize-mQuerie1: 30px;
+    --fontSize-mQuerie1: 35px;
     --fontSize-mQuerie2: 25px;
 }
 
@@ -83,7 +83,7 @@
 @media (max-width: 650px) {
 
     .hero h1 {
-        font-size: var(--fontSize-mQuerie2);
+
         width: 520px;
     }
 
