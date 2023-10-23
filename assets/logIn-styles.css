@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+:root {
+    /* Text colors */
+
+    --text-orange: #FD772B;
+    --text-white: white;
+    --text-grey: #AAAAAA;
+    --text-purple:#6a47b8;
+
+    /* Bg colors */
+    --background: white;
+    --nav-bg: #1e1e1e;
+}
+
+section {
+    background-image: url(./img/backgroun-login\ \(20231023111526\).png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: var(--nav-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+/* IMAGE */
+
+.img_container {
+    width: 50%;
+}
+
+.img_container img {
+    width: 600px;
+}
+
+/* FORM */
+
+.form_container {
+    width: 50%;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.inputs {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.form_container h1 {
+    text-align: center;
+    color: var(--text-orange);
+    font-size: 30px;
+}
+
+form input {
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    padding: 10px;
+    background-color: var(--nav-bg);
+    border: 1px solid white;
+    color: #AAAAAA;
+}
+
+::placeholder {
+
+}
+
+.btn {
+    background: none;
+    color: var(--text-orange);
+    border: 2px solid;
+    padding: 5px 5px;
+    font-size: 13px;
+    transition: all 0.2s;
+    border-radius: 2px;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+button:hover {
+    border-color: var(--text-purple);
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--text-purple);
+    transform: translateY(-0.15em);
+}
+
+a {
+    color: var(--text-orange);
+    font-weight: lighter;
+    font-size: 10px;
+}
