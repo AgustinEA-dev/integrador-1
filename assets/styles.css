@@ -130,9 +130,9 @@ h1 {
 /* ABOUT */
 
 .about img {
-    width: 250px;
+    width: 300px;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgb(163, 163, 163);
+   
 }
 
 .about {
@@ -318,7 +318,7 @@ h1 {
     gap: 20px;
     width: 100%;
     font-family: 'Gentium Book Plus', serif;
-    padding: 50px;
+    padding: 50px 50px 0px 50;
     background-image: url(./img/background-footer\ \(20231022051654\).png);
     background-size: cover;
     background-position: 95% 5%;
