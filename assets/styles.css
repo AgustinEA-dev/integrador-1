@@ -382,7 +382,7 @@ form {
     flex-direction: column;
     gap: 10px;
     color: var(--text-orange);
-    padding: 10px;
+   
 }
 
 form h4 {
