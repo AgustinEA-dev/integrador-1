@@ -1,12 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red;  */
 }
 
 :root {
@@ -21,6 +16,9 @@
     --background: white;
     --nav-bg: #1e1e1e;
 }
+
+
+/* Section */
 
 section {
     background-image: url(./img/backgroun-login\ \(20231023111526\).png);
@@ -65,6 +63,7 @@ form {
     flex-direction: column;
     gap: 10px;
     font-family: 'Gentium Book Plus', serif;
+    padding: 30px;
 }
 
 .form_container h1 {
@@ -83,6 +82,32 @@ form input {
     color: #AAAAAA;
 }
 
+/* Checkbox */
+
+.checkbox_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox_container input {
+    width: fit-content;
+    accent-color: var(--text-purple) ;
+}
+
+
+
+.checkbox_container label {
+    color: var(--text-orange);
+    width: 80%;
+}
+
+p {
+    color: var(--text-orange);
+}
+
+/* Button */
+
 .btn {
     background: none;
     color: var(--text-orange);
@@ -100,12 +125,6 @@ button:hover {
     box-shadow: 0 0.5em 0.5em -0.4em var(--text-purple);
     transform: translateY(-0.15em);
     cursor: pointer;
-}
-
-a {
-    color: var(--text-orange);
-    font-weight: lighter;
-    font-size: 10px;
 }
 
 /* MEDIAQUERIES */

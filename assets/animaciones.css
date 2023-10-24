@@ -43,7 +43,7 @@
     }
 }
 
-.hero h1{
+.hero h1 {
     animation-name: fade-in;
     animation-duration: 4s;
 }
@@ -66,4 +66,19 @@ h2 {
 .about p {
     animation-name: fade-in;
     animation-duration: 5s;
+}
+
+
+.hero {
+    -webkit-animation: slide 30s linear infinite;
+}
+
+@-webkit-keyframes slide {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: -512px -512px;
+    }
 }

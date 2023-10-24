@@ -78,6 +78,21 @@
         display: flex;
         padding: 10px;
     }
+
+    .prog {
+        display: none;
+    }
+}
+
+@media (max-width: 780px) {
+    .about_content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about_content p {
+        width: 100%;
+    }
 }
 
 @media (max-width: 650px) {
