@@ -103,7 +103,7 @@
     }
 
     .about {
-        padding: 10px;
+        padding: 50px;
     }
 
     .about_content {
@@ -127,7 +127,7 @@
 
     .img-1_container {
         width: 270px;
-        background-color: var(--card1-bg);
+        background-color: var(--nav-bg);
     }
 
     .img-2 {
@@ -174,7 +174,7 @@
     }
 
     .about {
-        padding: 0;
+        padding: 50px;
     }
 
     .about_image {
