@@ -226,7 +226,7 @@ h1 {
 
 .cards-items {
     max-width: 1200px;
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -354,7 +354,6 @@ h1 {
     gap: 20px;
     width: 100%;
     font-family: 'Gentium Book Plus', serif;
-    padding: 50px 50px 0px 50;
     background-image: url(./img/backgroun-login\ \(20231023111526\).png);
     background-size: cover;
     background-position: 95% 5%;
@@ -366,7 +365,7 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    padding: 80px 45px 45px 45px;
+    padding: 50px;
 }
 
 h3 {
