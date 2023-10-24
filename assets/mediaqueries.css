@@ -45,10 +45,6 @@
 
 @media (max-width: 862px) {
 
-    .logo {
-        width: 110px;
-    }
-
     .navbar ul {
         background-color: var(--nav-bg);
         width: 100%;
