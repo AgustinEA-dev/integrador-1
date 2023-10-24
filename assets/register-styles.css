@@ -73,7 +73,7 @@ form {
 }
 
 form input {
-    width: 40%;
+    width: 60%;
     outline: none;
     padding: 10px;
     background-color: var(--nav-bg);
@@ -129,51 +129,24 @@ button:hover {
 
 /* MEDIAQUERIES */
 
-@media (max-width: 1209px) {
-    .img_container img {
-        width: 500px;
-    }
-}
-
-@media (max-width: 1008px) {
-    .img_container img {
-        width: 450px;
-    }
-}
-
-@media (max-width: 907px) {
-    .img_container img {
-        width: 350px;
-    }
-}
-
 @media (max-width: 865px) {
     form input {
-        width: 45%;
+        width: 60%;
     }
 }
-
-@media (max-width: 711px) {
-    .img_container img {
-        width: 325px;
-    }
-}
-
-@media (max-width: 677px) {
-    .img_container img {
-        width: 310px;
-    }
-}
-
-@media (max-width: 626px) {
-    .img_container img {
-        width: 295px;
+@media (max-width: 715px) {
+    form input {
+        width: 60%;
     }
 }
 
 @media (max-width: 608px) {
     .container {
         flex-direction: column;
+    }
+
+    form input {
+        width: 80%;
     }
 
     .img_container img {
@@ -193,14 +166,14 @@ button:hover {
         margin-bottom: 5px;
     }
 
-    form input {
-        width: 100%;
-    }
-
 }
 @media (max-width: 411px) {
    label {
     font-size: 10px;
+   }
+
+   form input {
+    width: 200px;
    }
 
 }
