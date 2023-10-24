@@ -144,8 +144,9 @@ a:hover::before {
     width: 100%;
     height: 400px;
     margin-top: 60px;
-    background-image: url(./img/fondoHero\ \(20231017112203\).png);
+    background-image: url(./img/backgroun-login\ \(20231023111526\).png);
     background-position: 5% 95%;
+    background-size: cover;
 }
 
 h1 {
@@ -354,7 +355,7 @@ h1 {
     width: 100%;
     font-family: 'Gentium Book Plus', serif;
     padding: 50px 50px 0px 50;
-    background-image: url(./img/background-footer\ \(20231022051654\).png);
+    background-image: url(./img/backgroun-login\ \(20231023111526\).png);
     background-size: cover;
     background-position: 95% 5%;
 }
