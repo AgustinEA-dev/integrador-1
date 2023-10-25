@@ -178,7 +178,7 @@ h1 {
 }
 
 .about_text {
-    width: 50%;
+    width: 49%;
     color: var(--text-orange);
     font-family: 'Lora', serif;
     font-size: var(--fontSize-mainText);
