@@ -396,6 +396,7 @@ form {
 form h4 {
     font-size: 15px;
     text-decoration: none;
+    text-align: center;
 }
 
 form input {
