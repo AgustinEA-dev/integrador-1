@@ -213,6 +213,10 @@
 
 @media (max-width: 410px) {
 
+    nav {
+        height: 70px;
+    }
+
     .img-2 {
         width: 245px;
     }
