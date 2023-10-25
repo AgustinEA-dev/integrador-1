@@ -32,11 +32,11 @@ section {
 
 .container {
     background-color: var(--nav-bg);
+    max-width: 1200px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1200px;
-    width: 100%;
     border-radius: 10px;
 }
 
@@ -92,7 +92,7 @@ form input {
 
 .checkbox_container input {
     width: fit-content;
-    accent-color: var(--text-purple) ;
+    accent-color: var(--text-purple);
 }
 
 
@@ -134,6 +134,7 @@ button:hover {
         width: 60%;
     }
 }
+
 @media (max-width: 715px) {
     form input {
         width: 60%;
@@ -167,13 +168,14 @@ button:hover {
     }
 
 }
-@media (max-width: 411px) {
-   label {
-    font-size: 10px;
-   }
 
-   form input {
-    width: 200px;
-   }
+@media (max-width: 411px) {
+    label {
+        font-size: 10px;
+    }
+
+    form input {
+        width: 200px;
+    }
 
 }
