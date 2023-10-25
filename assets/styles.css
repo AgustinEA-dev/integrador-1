@@ -387,6 +387,7 @@ h4 {
 
 form {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     gap: 10px;
     color: var(--text-orange);
@@ -396,7 +397,7 @@ form {
 form h4 {
     font-size: 15px;
     text-decoration: none;
-    text-align: center;
+    /* text-align: center; */
 }
 
 form input {
