@@ -311,33 +311,10 @@ h1 {
     box-shadow: 5px 5px 10px rgb(149, 149, 149);
 }
 
-.img-5 {
-    width: 350px;
-    border-radius: 10px;
-    margin-top: 9px;
-}
-
-.img-5_container {
-    background-color: var(--body-bg);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 370px;
-    border-radius: 10px;
-    transition: all 0.5s;
-}
-
-.img-5_container:hover {
-    background-color: var(--text-purple2);
-    translate: -5px -5px;
-    box-shadow: 5px 5px 10px rgb(149, 149, 149);
-}
 
 .cards-items h3 {
     padding: 5px;
 }
-
 
 /* CONTACT */
 /* contact me */
