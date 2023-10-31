@@ -151,6 +151,15 @@
         width: 320px;
         background-color: var(--card4-bg);
     }
+    
+    .img-5 {
+        width: 300px;
+    }
+
+    .img-5_container {
+        width: 320px;
+        background-color: var(--nav-bg);
+    }
 
     .footer_content img {
         height: 100px;
