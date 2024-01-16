@@ -47,7 +47,7 @@
 
     .navbar ul {
         background-color: var(--nav-bg);
-        width:100%;
+        width: 100%;
         position: absolute;
         top: 60px;
         flex-direction: column;
@@ -151,7 +151,7 @@
         width: 320px;
         background-color: var(--card4-bg);
     }
-    
+
     .img-5 {
         width: 300px;
     }
