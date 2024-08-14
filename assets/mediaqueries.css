@@ -88,6 +88,7 @@
     .about_content p {
         width: 100%;
     }
+
 }
 
 @media (max-width: 650px) {
@@ -171,7 +172,7 @@
 
 }
 
-@media (max-width: 487px) {
+@media (max-width: 459px) {
 
     .hero h1 {
         padding: 20px;
@@ -209,6 +210,70 @@
         width: 280px;
     }
 
+    .img-5 {
+        width: 260px;
+    }
+
+    .img-5_container {
+        width: 280px;
+    }
+
+    .img-6 {
+        width: 260px;
+    }
+
+    .img-6_container {
+        width: 280px;
+    }
+
+    .img-7 {
+        width: 260px;
+    }
+
+    .img-7_container {
+        width: 280px;
+    }
+
+    .img-8 {
+        width: 260px;
+    }
+
+    .img-8_container {
+        width: 280px;
+    }
+
+    .img-9 {
+        width: 260px;
+    }
+
+    .img-9_container {
+        width: 280px;
+    }
+
+    .img-10 {
+        width: 260px;
+    }
+
+    .img-10_container {
+        width: 280px;
+    }
+
+    .img-11 {
+        width: 260px;
+    }
+
+    .img-11_container {
+        width: 280px;
+    }
+
+    .img-12 {
+        width: 260px;
+    }
+
+    .img-12_container {
+        width: 280px;
+    }
+
     .cards {
         padding: 20px;
     }
@@ -219,7 +284,7 @@
 
 }
 
-@media (max-width: 410px) {
+@media (max-width: 335px) {
 
     .navbar {
         height: 88px;
@@ -233,21 +298,98 @@
         padding-bottom: 43px;
     }
 
+    p {
+        font-size: 15px;
+    }
+
+    .img-1 {
+        width: 200px;
+    }
+
+    .img-1_container {
+        width: 220px;
+    }
+
     .img-2 {
-        width: 245px;
+        width: 200px;
     }
 
     .img-2_container {
-        width: 265px;
+        width: 210px;
     }
 
     .img-4 {
-        width: 245px;
+        width: 200px;
     }
 
     .img-4_container {
-        width: 265px;
+        width: 210px;
     }
+
+    .img-5 {
+        width: 200px;
+    }
+
+    .img-5_container {
+        width: 210px;
+    }
+
+    .img-6 {
+        width: 200px;
+    }
+
+    .img-6_container {
+        width: 210px;
+    }
+
+    .img-7 {
+        width: 200px;
+    }
+
+    .img-7_container {
+        width: 210px;
+    }
+
+    .img-8 {
+        width: 200px;
+    }
+
+    .img-8_container {
+        width: 210px;
+    }
+
+    .img-9 {
+        width: 200px;
+    }
+
+    .img-9_container {
+        width: 210px;
+    }
+
+    .img-10 {
+        width: 200px;
+    }
+
+    .img-10_container {
+        width: 210px;
+    }
+
+    .img-11 {
+        width: 200px;
+    }
+
+    .img-11_container {
+        width: 210px;
+    }
+
+    .img-12 {
+        width: 200px;
+    }
+
+    .img-12_container {
+        width: 210px;
+    }
+
 
     .cards {
         padding: 20px;

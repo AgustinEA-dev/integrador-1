@@ -450,7 +450,7 @@ h1 {
 }
 
 .img-11 {
-    width: 650px;
+    width: 350px;
     border-radius: 10px;
     margin-top: 9px;
     padding-top: 10px;
@@ -462,7 +462,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 700px;
+    width: 400px;
     border-radius: 10px;
     transition: all 0.5s;
 }
@@ -474,7 +474,7 @@ h1 {
 }
 
 .img-12 {
-    width: 650px;
+    width: 350px;
     border-radius: 10px;
     margin-top: 9px;
     padding-top: 10px;
@@ -486,7 +486,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 700px;
+    width: 400px;
     border-radius: 10px;
     transition: all 0.5s;
 }
